@@ -1,0 +1,35 @@
+body {
+  background:url(calm-background.jpg);
+  font-family:Arial;
+}
+
+h1 {
+  color:#BDB76B;
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
+  text-align:center;
+}
+
+.quote-block {
+  text-align:center;
+}
+
+.quote {
+  background: white;
+  padding: 15px;
+  font-size:26px;
+  display:inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quote-autor {
+  color: #696969;
+  padding:10px 0;
+  background: white;
+  margin-left:50%;
+  margin-right:20%;
+  font-style:italic;
+}
+
+.no-display {
+  display:none;
+}
