@@ -35,11 +35,13 @@ quotes_json = [
     ]
 
   var quote_num = Math.round(Math.random() * (quotes_json.length - 1))
-  document.getElementsByClassName('quote')[0].textContent = quotes_json[quote_num]['phrase'];
+  var quote_element = document.getElementsByClassName('json-quote')[0]
+  var quote_autor = document.getElementsByClassName('json-quote-autor')[0];
+  quote_element.textContent = quotes_json[quote_num]['phrase'];
 
   if (quotes_json[quote_num]['signature']==undefined) {
-    document.getElementsByClassName('quote-autor')[0].classList.add('no-display');
+    quote_autor.classList.add('no-display');
   } else {
-    document.getElementsByClassName('quote-autor')[0].textContent = quotes_json[quote_num]['signature'];
+    quote_autor.textContent = quotes_json[quote_num]['signature'];
   }
 })();
