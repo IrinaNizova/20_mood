@@ -1,6 +1,7 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+https://irinanizova.github.io/20_mood/
+This is site with quotes for every day
 
 # Project Goals
 
